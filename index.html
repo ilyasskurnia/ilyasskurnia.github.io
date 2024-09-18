@@ -1,241 +1,775 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="shortcut icon" href="images/ms-icon-310x310.png" type="image/x-icon">
-    <title>Kurnia Photoraphy & Videography</title>
+  <meta charset="utf-8">
+  <title>Ilyas Portofolio</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-		<div class="container">
-			<a class="logo" ><img src="images/logo putih.png" alt=""></a> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
-			<div class="main" id="navbarSupportedContent">
-				<ul>
-					<li>
-						<a class="nav-link" href="index.html">Beranda</a>
-					</li>
-					<li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Perusahaan
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="tentang.html">Tentang</a></li>
-              <li><a class="dropdown-item" href="gabung.html">Gabung jadi Tim</a></li>
-              <li><a class="dropdown-item" href="forum.html">Forum diskusi</a></li>
-            </ul>
+
+<body id="page-top">
+
+  <!--/ Nav Star /-->
+  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll" href="#page-top">.</a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll active" href="#home">Home</a>
           </li>
-					<li>
-						<a class="nav-link" href="galeri.html">Galeri Kami</a>
-					</li>
-					<li>
-						<a class="nav-link" href="daftarHarga.html">Price list</a>
-					</li>
-					<li>
-						<a class="nav-link" href="Contact.html">Contact</a>
-					</li>
-          <li>
-						<a class="nav-link2" href="registrasi.html">Daftar/Login</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	  </nav>
-
-    <main>
-    <section id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="images/wedding.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="images/personal1.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="images/wedding2.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="images/personal2.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="images/wedding3.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="images/personal3.jpg" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-    </section>
-    <script 
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">   
-    </script><!-- End of SLIDER -->
-  
-    <section class="section01">
-        <div>
-            <p class="paragraf1">ABADIKAN MOMEN BERSEJARAH DALAM<br>HIDUPMU </p>
-        </div>
-        <div>
-            <p class="paragraf1-2">Ciptakan momen – momen bersejarah dalam hidupmu dan<br>mendokumentasikannya bersama dengan Kurnia<br>Photography & Videography </p>
-        </div>
-        <div>
-            <p class="paragraf1-3">[Semarang & Sekitarnya] </p>
-        </div>    
-        <div class="container">
-          <div class="buttons">
-            <a href="Contact.html" class="btn btn-1">Contact Us</a>
-          </div>
-        </div>    
-    </section>    
-
-    <section class="section02">
-        <article class="inner-container">
-        <h2 class="heading2">FAREWELL PARTY : Disinilah kenangan terjadi</h2>
-        <p>
-          Perpisahan merupakan momen dimana kita <br> berpisah dengan teman – teman atau <br> mungkin sahabat – sahabat kita karena akan <br> melanjutkan perjalanan menuju kesuksesan.<br><br>
-          Perpisahaan selalu mengajarkan kita untuk <br> menghargai, bahwa setiap detik bersama <br> orang yang kita cintai adalah anugerah yang <br> tidak boleh kita sia-siakan.<br><br>
-          Semua momen kecil itu kelak akan menjadi <br> kisah hidup Anda. Kami ingin menjadi teman <br> yang dapat membantu Anda setiap langkah <br> dalam mendokumentasikan cerita Anda <br> dalam bentuk foto yang berarti segalanya bagi <br> hati Anda.
-        </p>
-        </article>
-    </section>
-
-    <section class="section03">
-      <table  class="container1">
-        <tr class="children">
-          <td>
-            <img class="image1" src="images/PicsArt_10-29-10.57.57.jpg" alt="">
-          </td>
-          <td class="typography">
-            <h1>GRUP PHOTOGRAPHY</h1>
-            <p>Berkumpul bersama teman – teman adalah <br> hal yang sangat menyenangkan, yang tidak <br> dapat dipisahkan oleh umur maupun <br> waktu. entah hanya sekedar berbicara, <br> bermain game, mengobrol bahkan sampai <br> ingin mengabadikan momen pertemanan <br> kalian dengan outfit ataupun konsep yang <br> tidak biasa.<br><br>Kami siap membantu Anda dalam <br> menentukan tempat dan konsep foto agar <br> anda dan teman anda dapat mengabadikan <br> momen pertemanan kalian dengan sangat <br> bagus dan cantik.</p>
-          </td>
-        </tr>
-      </table>
-      <table class="container2">
-      <tr class="children">
-        <td class="typography2">
-          <h1>FOOD PHOTOGRAPHY</h1>
-          <p>Di lingkungan dengan tingkat persaingan <br> yang tinggi, penting untuk menarik <br> perhatian pelanggan lewat keunikan dari <br> bisnismu. Contohnya ketika kamu ingin <br> membuka restoran di sebuah pusat <br> perbelanjaan. Di sana tentu banyak <br> restoran yang menawarkan berbagai jenis <br> makanan. Nah, sekarang tinggal <br> bagaimana caranya kamu bisa bersaing <br> dengan restoran ternama yang sudah <br> punya banyak pelanggan tersebut. Salah <br> satu cara promosi restoran yang tepat <br> adalah lewat food photography. <br><br> Kami siap membantu Anda dalam <br> menciptakan foto makanan yang menarik <br> sehingga membuat orang – orang tertarik <br> dalam memilih makanan anda.</p>
-        </td>
-        <td>
-          <img class="image2" src="images/PicsArt_10-29-10.52.02.jpg" alt="">
-        </td>
-      </tr>
-      </table>
-      <div class="container">
-        <div class="buttons">
-          <a href="Contact.html" class="btn0 btn-2">LET US DOCUMENT YOUR STORY !!!</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="section04">
-      <div>
-      <p class="text2">STORIES</p>
-      <hr class="line">
-      </div>
-      <table class="container4">
-        <tr class="children2">
-          <td>
-            <img class="image3" src="images/grup (1).jpg" alt="">
-          </td>
-          <td>
-            <img class="image3" src="images/food (6).jpg" alt="">
-          </td>
-          <td>
-            <img class="image3" src="images/grup (6).JPG" alt="">
-          </td>
-        </tr>
-      </table>
-      <table class="container4">
-        <tr class="children2">
-          <td>
-            <img class="image3" src="images/food (2).JPG" alt="">
-          </td>
-          <td>
-            <img class="image3" src="images/grup (2).JPG" alt="">
-          </td>
-          <td>
-            <img class="image3" src="images/food (4).JPG" alt="">
-          </td>
-        </tr>
-      </table>
-      <table class="container4">
-        <tr class="children2">
-          <td>
-            <img class="image3" src="images/personald.JPG" alt="">
-          </td>
-          <td>
-            <img class="image3" src="images/street (6).jpg" alt="">
-          </td>
-          <td>
-            <img class="image3" src="images/personali.JPG" alt="">
-          </td>
-        </tr>
-      </table>
-      <div class="container5">
-        <div class="buttons">
-          <a href="galeri.html" class="btn1 btn-3">See more</a>
-        </div>
-      </div>     
-    </section>
-  </main>
-  <footer class="footer">
-    <div class="container3">
-      <div class="row">
-        <div class="footer-col">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d990.0248298245095!2d110.3312531291662!3d-6.997583999684055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708aa064fd613b%3A0xa47153a85eae52c2!2sJl.%20Mega%20Raya%20I%20No.222%2C%20Bringin%2C%20Kec.%20Ngaliyan%2C%20Kota%20Semarang%2C%20Jawa%20Tengah%2050189!5e0!3m2!1sid!2sid!4v1639358494816!5m2!1sid!2sid" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
-        <div class="footer-col">
-          <h4>Perusahaan</h4>
-          <ul>
-            <li><a href="tentang.html">Tentang </a></li>
-            <li><a href="galeri.html">Galeri</a></li>
-            <li><a href="daftarHarga.html">Price list</a></li>
-            <li><a href="gabung.html">Gabung jadi Tim</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Hubungi Kami</h4>
-          <ul>
-            <li><a href="Contact.html">Kontak</a></li>
-            <li><a href="registrasi.html">Daftar/Login</a></li>
-            <li><a href="forum.html">Forum diskusi</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4 class="hlink">Cari tau lebih tentang kami</h4>
-          <div class="social-links">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="text-center py-3">&copy; 2021 Kurnia Photography & Videography |  Kurnia Photography & Videography adalah layanan dalam jasa visual </div>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#service">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#sertifikat">Sertifikat</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#portofolio">Portofolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#contact">Contact</a>
+          </li>
+        </ul>
       </div>
     </div>
-  </footer>
+  </nav>
+  <!--/ Nav End /-->
+
+  <!--/ Intro Skew Star /-->
+  <div id="home" class="intro route bg-image" style="background-image: url(img/intro-bg.jpg)">
+    <div class="overlay-itro"></div>
+    <div class="intro-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <!--<p class="display-6 color-d">Hello, world!</p>-->
+          <h1 class="intro-title mb-4">I am Ilyas Kurnia Ramadhan</h1>
+          <p class="intro-subtitle"><span class="text-slider-items">Quality Assurance</span><strong class="text-slider"></strong></p>
+          <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Download CV</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/ Intro Skew End /-->
+
+  <section id="about" class="about-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="box-shadow-full">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="row">
+                  <div class="col-sm-6 col-md-5">
+                    <div class="about-img">
+                      <img src="img/testimonial-2.jpg" class="img-fluid rounded b-shadow-a" alt="">
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-7">
+                    <div class="about-info">
+                      <p><span class="title-s">Name: </span> <span>Ilyas Kurnia Ramadhan</span></p>
+                      <p><span class="title-s">Profile: </span> <span>Quality Assurance at Sinergi Muda Arsa</span></p>
+                      <p><span class="title-s">Email: </span> <span>ilyaskurnia07@gmail.com</span></p>
+                      <p><span class="title-s">Phone: </span> <span>(+62) 81325716155</span></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="skill-mf">
+                  <p class="title-s">Skill</p>
+                  <span>Web Development, </span> 
+                  <span>UI/UX Design,</span> 
+                  <span>PHP,</span>
+                  <span>JAVASCRIPT</span>
+                  <span>Microsoft Office, <span>Figma</span>, <span>Adobe Premiere Pro </span>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="about-me pt-4 pt-md-0">
+                  <div class="title-box-2">
+                    <h5 class="title-left">
+                      About me
+                    </h5>
+                  </div>
+                  <p class="lead">
+                    Saya Ilyas Kurnia Ramadhan, Fresh Graduate dengan gelar Sarjana Teknik Informatika dari Universitas Dian Nuswantoro, dengan pengalaman saat ini sebagai Quality Assurance Specialist di perusahaan rintisan sinergi muda arsa. 
+                    Berpengalaman dalam pengembangan website, mencakup desain UI, front-end, back-end development. 
+                    Saya mempunyai kemampuan belajar cepat, mudah beradaptasi, komunikatif, dan mampu memecahkan masalah secara kreatif.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--/ Section Services Star /-->
+  <section id="service" class="services-mf route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              Services
+            </h3>
+            <p class="subtitle-a">
+              Layanan dan Konsultasi Yang Bisa Saya Berikan.
+            </p>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-monitor"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Web Design</h2>
+              <p class="s-description text-center">
+                Saya menawarkan layanan desain web yang berfokus pada menciptakan tampilan website yang menarik, 
+                responsif, dan mudah digunakan, sehingga pengunjung bisa mendapatkan pengalaman yang optimal di 
+                berbagai perangkat.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-code-working"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Web Development</h2>
+              <p class="s-description text-center">
+                Layanan pengembangan website yang saya sediakan mencakup pembuatan situs web dinamis, 
+                sistem manajemen konten (CMS), 
+                dan pengintegrasian fitur-fitur canggih yang sesuai dengan kebutuhan bisnis dan personal.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-chatboxes"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">IT Consultant</h2>
+              <p class="s-description text-center">
+                Saya siap memberikan layanan konsultasi IT untuk membantu bisnis merancang solusi teknologi yang efisien dan 
+                sesuai dengan kebutuhan, termasuk perencanaan sistem IT dan optimalisasi infrastruktur teknologi.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-film-marker"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Video Editor</h2>
+              <p class="s-description text-center">
+                Saya menawarkan layanan editing video yang profesional untuk berbagai keperluan, seperti promosi, 
+                konten media sosial, atau presentasi, 
+                dengan fokus pada kualitas visual yang menarik dan pesan yang jelas.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-clipboard"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Project Planner</h2>
+              <p class="s-description text-center">
+                Saya bisa membantu merencanakan dan mengelola proyek dengan menyusun strategi dan timeline yang tepat, 
+                sehingga setiap tahap proyek berjalan lancar dan mencapai tujuan yang diinginkan.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-person-stalker"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Narahubung</h2>
+              <p class="s-description text-center">
+                Saya menyediakan layanan narahubung untuk memastikan komunikasi yang efektif antara semua pihak yang 
+                terlibat dalam proyek atau layanan, 
+                membantu menjaga kelancaran jalannya proyek dari awal hingga akhir.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Section Services End /-->
+
+  <div class="section-counter paralax-mf bg-image" style="background-image: url(img/counters-bg.jpg)">
+    <div class="overlay-mf"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4 col-lg-4">
+          <div class="counter-box">
+            <div class="counter-ico">
+              <span class="ico-circle"><i class="ion-checkmark-round"></i></span>
+            </div>
+            <div class="counter-num">
+              <p class="counter">20</p>
+              <span class="counter-text">WORKS COMPLETED</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 col-lg-4">
+          <div class="counter-box pt-4 pt-md-0">
+            <div class="counter-ico">
+              <span class="ico-circle"><i class="ion-ios-calendar-outline"></i></span>
+            </div>
+            <div class="counter-num">
+              <p class="counter">2</p>
+              <span class="counter-text">YEARS OF EXPERIENCE</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 col-lg-4">
+          <div class="counter-box pt-4 pt-md-0">
+            <div class="counter-ico">
+              <span class="ico-circle"><i class="ion-ios-people"></i></span>
+            </div>
+            <div class="counter-num">
+              <p class="counter">15</p>
+              <span class="counter-text">TOTAL CLIENTS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--/ Section Portfolio Star /-->
+  <section id="sertifikat" class="portfolio-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              SERTIFIKAT
+            </h3>
+            <p class="subtitle-a">
+              Beberapa sertifikat yang saya miliki
+            </p>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="img/HKI.png" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="img/HKI.png" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">HKI Aplikasi Supply Chain Management Berbasis Web Marketplace Produk UMKM</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Development</span> / <span class="w-date">16 Nov 2023 - 16 Nov 2073</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="img/HKI 2.png" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="img/HKI 2.png" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">HKI Aplikasi Point of Sales Berbasis Web Marketplace produk UMKM</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Development</span> / <span class="w-date">16 Nov 2023 - 16 Nov 207</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="img/HKI 3.png" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="img/HKI 3.png" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Aplikasi Enterprise Information System Untuk Prediksi Demand Produk UMKM</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Development</span> / <span class="w-date">Jan 2024 - Feb 2024</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="img/IT Fundamental.png" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="img/IT Fundamental.png" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">IT Fundamental (FGA 2022)</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Development</span> / <span class="w-date">Sep 2022</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="img/sertifikat oracle.png" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="img/sertifikat oracle.png" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Design & Programing SQL (FGA 2022)</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Development</span> / <span class="w-date">Agus 2022</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="img/sertifikat COE.png" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="img/sertifikat COE.png" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Kedeireka Matching Fund 2023 Program</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Development</span> / <span class="w-date">Feb 2023 - Juli 2023</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="img/sertifikat nvdia.png" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="img/sertifikat nvdia.png" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Accelerating End-to-End Data Science Workflows</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Development</span> / <span class="w-date">Dec 2023</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <!--/ Section Portfolio End /-->
+
+  <!--/ Section Testimonials Star /-->
+
+
+  <!--/ Section Blog Star /-->
+  <section id="portofolio" class="blog-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              Portofolio
+            </h3>
+            <p class="subtitle-a">
+              Beberapa pekerjaan yang telah saya selesaikan.
+            </p>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card card-blog">
+            <div class="card-img">
+              <a href="companyprofile_mandiripribumi.html"><img src="img/mandiri pribumi web.png" alt="" class="img-fluid"></a>
+            </div>
+            <div class="card-body">
+              <div class="card-category-box">
+                <div class="card-category">
+                  <h6 class="category">Web Development</h6>
+                </div>
+              </div>
+              <h3 class="card-title"><a href="companyprofile_mandiripribumi.html">Website Company Profile Mandiri Pribumi</a></h3>
+              <p class="card-description">
+                Pdasd
+              </p>
+            </div>
+            <div class="card-footer">
+              <div class="post-author">
+              </div>
+              <div class="post-date">
+                <span class="ion-ios-clock-outline"></span> Okt 2023 - Des 2023              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card card-blog">
+            <div class="card-img">
+              <a href="blog-single.html"><img src="img/aspoo website.png" alt="" class="img-fluid"></a>
+            </div>
+            <div class="card-body">
+              <div class="card-category-box">
+                <div class="card-category">
+                  <h6 class="category">Web Development</h6>
+                </div>
+              </div>
+              <h3 class="card-title"><a href="blog-single.html">Website E-Commerce ASPOO</a></h3>
+              <p class="card-description">
+                Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
+                a pellentesque nec,
+                egestas non nisi.
+              </p>
+            </div>
+            <div class="card-footer">
+              <div class="post-author">
+              </div>
+              <div class="post-date">
+                <span class="ion-ios-clock-outline"></span> Jul 2023 - Feb 2023
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card card-blog">
+            <div class="card-img">
+              <a href="blog-single.html"><img src="img/finance mandiri pribumi.png" alt="" class="img-fluid"></a>
+            </div>
+            <div class="card-body">
+              <div class="card-category-box">
+                <div class="card-category">
+                  <h6 class="category">Web Development</h6>
+                </div>
+              </div>
+              <h3 class="card-title"><a href="blog-single.html">Website Finance System Mandiri Pribumi</a></h3>
+              <p class="card-description">
+                Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
+                a pellentesque nec,
+                egestas non nisi.
+              </p>
+            </div>
+            <div class="card-footer">
+              <div class="post-author">
+              </div>
+              <div class="post-date">
+                <span class="ion-ios-clock-outline"></span> 10 min
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card card-blog">
+            <div class="card-img">
+              <a href="comprosmgen.html"><img src="img/suara merdeka generation.png" alt="" class="img-fluid"></a>
+            </div>
+            <div class="card-body">
+              <div class="card-category-box">
+                <div class="card-category">
+                  <h6 class="category">Web Development</h6>
+                </div>
+              </div>
+              <h3 class="card-title"><a href="comprosmgen.html">Website Company Profile Suara Merdeka Generation</a></h3>
+              <p class="card-description">
+                Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
+                a pellentesque nec,
+                egestas non nisi.
+              </p>
+            </div>
+            <div class="card-footer">
+              <div class="post-author">
+              </div>
+              <div class="post-date">
+                <span class="ion-ios-clock-outline"></span> Feb 2024 - Mei 2024
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card card-blog">
+            <div class="card-img">
+              <a href="blog-single.html"><img src="img/visualisasi.png" alt="" class="img-fluid"></a>
+            </div>
+            <div class="card-body">
+              <div class="card-category-box">
+                <div class="card-category">
+                  <h6 class="category">Web Development</h6>
+                </div>
+              </div>
+              <h3 class="card-title"><a href="blog-single.html">Website Visualisasi Suara Prapemilu Paslon Pilkada</a></h3>
+              <p class="card-description">
+                Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
+                a pellentesque nec,
+                egestas non nisi.
+              </p>
+            </div>
+            <div class="card-footer">
+              <div class="post-author">
+              </div>
+              <div class="post-date">
+                <span class="ion-ios-clock-outline"></span> Agus 2024 - Agus 2024
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card card-blog">
+            <div class="card-img">
+              <a href="blog-single.html"><img src="img/bsp tracking .png" alt="" class="img-fluid"></a>
+            </div>
+            <div class="card-body">
+              <div class="card-category-box">
+                <div class="card-category">
+                  <h6 class="category">Web Development</h6>
+                </div>
+              </div>
+              <h3 class="card-title"><a href="blog-single.html">WebApp Tracking PT. Bahtera Sapta Permata</a></h3>
+              <p class="card-description">
+                Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
+                a pellentesque nec,
+                egestas non nisi.
+              </p>
+            </div>
+            <div class="card-footer">
+              <div class="post-author">
+              </div>
+              <div class="post-date">
+                <span class="ion-ios-clock-outline"></span> Mei 2024 - Sep 2024
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Section Blog End /-->
+
+  <!--/ Section Contact-Footer Star /-->
+  <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/overlay-bg.jpg)">
+    <div class="overlay-mf"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="contact-mf">
+            <div id="contact" class="box-shadow-full">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="title-box-2">
+                    <h5 class="title-left">
+                      Send Message Me
+                    </h5>
+                  </div>
+                  <div>
+                      <form action="" method="post" role="form" class="contactForm">
+                      <div id="sendmessage">Your message has been sent. Thank you!</div>
+                      <div id="errormessage"></div>
+                      <div class="row">
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                            <div class="validation"></div>
+                          </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                            <div class="validation"></div>
+                          </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                              <div class="validation"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                            <div class="validation"></div>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="title-box-2 pt-4 pt-md-0">
+                    <h5 class="title-left">
+                      Get in Touch
+                    </h5>
+                  </div>
+                  <div class="more-info">
+                    <p class="lead">
+
+                    </p>
+                    <ul class="list-ico">
+                      <li><span class="ion-ios-location"></span> Bringin, Ngaliyan, Kota Semarang</li>
+                      <li><span class="ion-ios-telephone"></span> (+62) 81325716155</li>
+                      <li><span class="ion-email"></span> ilyaskurnia07@gmail.com</li>
+                    </ul>
+                  </div>
+                  <div class="socials">
+                    <ul>
+                      <li><a href="https://www.linkedin.com/in/ilyas-kurnia-ramadhan/" target="_blank"><span class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
+                      <li><a href="https://www.instagram.com/ilyasskurnia?igsh=a3AwdHdzdHU2NmFn&utm_source=qr" target="_blank"><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="copyright-box">
+              <p class="copyright">&copy; Copyright <strong>Ilyas Kurnia Ramadhan</strong>. All Rights Reserved</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+  <!--/ Section Contact-footer End /-->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <div id="preloader"></div>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/popper/popper.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/counterup/jquery.waypoints.min.js"></script>
+  <script src="lib/counterup/jquery.counterup.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/typed/typed.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
 </body>
 </html>
